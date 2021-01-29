@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin:0; /*Retira a margem*/
+}
+
+ul{
+    display:flex; /*Disposição lado-a-lado*/
+    list-style:none; /*Retira as bolinhas da lista*/
+    padding-left:0; /*Retira da lista a margem da esquerda*/
+}
+
+li{
+    margin-right: 0.625rem; /*Margem entre as palavras da barra*/
+}
+
+.navbar {
+    position: fixed; /*Fixou a barra de navegação*/
+    display:grid; /*grid layout enables an author to align elements into columns and rows*/
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top:0;   /*Retira a margem que ficou da barra de navegação*/
+    left:0;  
+
+    width: 100vw; /*Faz a barra de navegação ficar inteira*/
+    padding: 0 1rem; /*Afasta os elementos da lista da barra de navegação*/
+
+    background-color: #000; /*Cor do fundo*/
+    color:  #fff /*Cor da letra*/
+}
+
+.navbar__links{
+    justify-self: end; /*Justifica os elementos da barra de navegação à direita*/
+}
+
+.navbar__links a{
+    color: #fff; /*Cor dos elementos da barra*/
+    text-decoration: none; /*Retira o efeito dos elementos da barra*/
+}
