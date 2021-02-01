@@ -13,6 +13,7 @@
 
 body{
     margin:0; /*Retira a margem*/
+    padding-top:7.75rem;
 }
 
 ul{
@@ -30,6 +31,7 @@ ul{
     left:0;  
     
     width: 100vw; /*Faz a barra de navegação ficar inteira*/
+    height:7.75rem;
     padding: 0 1rem; /*Afasta os elementos da lista da barra de navegação*/
     
     background-color: #000; /*Cor do fundo*/
@@ -42,11 +44,12 @@ ul{
 
 .navbar__links li{
     font-size: 0.875rem;
-    margin-right: 0.625rem; /*Margem entre as palavras da barra*/
+    margin-right: 3rem; /*Margem entre as palavras da barra*/
     text-transform: uppercase;
 }   
 
 .navbar__links a{
+    font-weight:300;
     color: #fff; /*Cor dos elementos da barra*/
     text-decoration: none; /*Retira o efeito dos elementos da barra*/
 }
@@ -56,14 +59,16 @@ ul{
 }
 
 .logo-studion{
-    font-weight: 900; /*Deixa o testo STUDION mais pesado*/
-    text-transform: uppercase;
+    font-size:2.375rem;
+    font-weight: 900; /*Deixa o texto STUDION mais pesado*/
+    line-height:1ch;
+    text-transform: uppercase; /*Texto em maiúscula*/
+    text-align:right;
 }
 
 .logo-studion_subtitle{
     font-size: 0.875rem;
-    font-weight: 400;
-    text-align: right;
+    font-weight: 300;
 }
 
 .copy-primary{
