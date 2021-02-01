@@ -11,7 +11,7 @@
 <body> <!-- corpo do site-->
     <nav class="navbar"> <!--seção de uma página que aponta para outras páginas -->
         <h1 class="logo-studion">
-            Studi<span class="copy-primary">on</span>
+            Studi<span class="copy--primary">on</span>
             <span class="logo-studion_subtitle">Eventos</span>
         </h1>
         <ul class="navbar__links"> <!--lista de itens -->
@@ -46,9 +46,16 @@
     <header> <!-- Agregador de conteúdo do cabeçalho de um documento ou de uma seção.-->
         <div id="slider"> 
             <div class="slide">
-                <h6><span>Próximo Evento</span> - Dia 23 de maio às 23h</h6> <!-- span é um generico em linha para conteúdo fraseado; agrupa elementos p estilizar-->
-                <h2><span>Creative</span> Minds</h2>
-                <button>Saiba Mais</button>
+                <img 
+                class="slide__background-image" 
+                src="./images/banner.jpg" 
+                alt="Studion Banner"
+                />
+                <div class="slide__copy">
+                    <h6 style="margin:0";><span class="copy--primary">Próximo Evento</span> - Dia 23 de maio às 23h</h6> <!-- span é um generico em linha para conteúdo fraseado; agrupa elementos p estilizar-->
+                    <h2><span class="copy--primary">Creative</span> Minds</h2>
+                    <button class="btn btn--slide">Saiba Mais</button>
+                </div>
             <div>
         </div>
     </header>

@@ -1,76 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-
 
 :root {
-    --color-primary:#ffc500; /* Uma variável para cor primária*/
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  --color-primary: #ffc500; /* Uma variável para cor primária*/
+  --default-padding: 1rem;
 }
 
-body{
-    margin:0; /*Retira a margem*/
-    padding-top:7.75rem;
+body {
+  margin: 0; /*Retira a margem*/
+  padding-top: 7.75rem;
 }
 
-ul{
-    display:flex; /*Disposição lado-a-lado*/
-    list-style:none; /*Retira as bolinhas da lista*/
-    padding-left:0; /*Retira da lista a margem da esquerda*/
+ul {
+  display: flex; /*Disposição lado-a-lado*/
+  list-style: none; /*Retira as bolinhas da lista*/
+  padding-left: 0; /*Retira da lista a margem da esquerda*/
 }
 
 .navbar {
-    position: fixed; /*Fixou a barra de navegação*/
-    display:grid; /*grid layout enables an author to align elements into columns and rows*/
-    grid-template-columns: 1fr 9fr;
-    align-items: center;
-    top:0;   /*Retira a margem que ficou da barra de navegação*/
-    left:0;  
-    
-    width: 100vw; /*Faz a barra de navegação ficar inteira*/
-    height:7.75rem;
-    padding: 0 1rem; /*Afasta os elementos da lista da barra de navegação*/
-    
-    background-color: #000; /*Cor do fundo*/
-    color:  #fff /*Cor da letra*/
+  position: fixed; /*Fixou a barra de navegação*/
+  z-index: 1;
+  display: grid; /*grid layout enables an author to align elements into columns and rows*/
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+  top: 0; /*Retira a margem que ficou da barra de navegação*/
+  left: 0;
+
+  width: 100vw; /*Faz a barra de navegação ficar inteira*/
+  height: 7.75rem;
+  padding: 0 1rem; /*Afasta os elementos da lista da barra de navegação*/
+
+  background-color: #000; /*Cor do fundo*/
+  color: #fff; /*Cor da letra*/
 }
 
-.navbar__links{
-    justify-self: end; /*Justifica os elementos da barra de navegação à direita*/
+.navbar__links {
+  justify-self: end; /*Justifica os elementos da barra de navegação à direita*/
 }
 
-.navbar__links li{
-    font-size: 0.875rem;
-    margin-right: 3rem; /*Margem entre as palavras da barra*/
+.navbar__links li {
+  font-size: 0.875rem;
+  margin-right: 3rem; /*Margem entre as palavras da barra*/
+  text-transform: uppercase;
+}
+
+.navbar__links a {
+  font-weight: 300;
+  color: #fff; /*Cor dos elementos da barra*/
+  text-decoration: none; /*Retira o efeito dos elementos da barra*/
+}
+
+.navbar__links a:hover {
+  color: var(
+    --color-primary
+  ); /*Utilizou da variável para aplicar a cor primária na navbar*/
+}
+
+.logo-studion {
+  font-size: 2.375rem;
+  font-weight: 900; /*Deixa o texto STUDION mais pesado*/
+  line-height: 1ch;
+  text-transform: uppercase; /*Texto em maiúscula*/
+  text-align: right;
+}
+
+.logo-studion_subtitle {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.copy--primary {
+  color: var(--color-primary);
+}
+
+#slider {
+    background-color: #000;
+    color: #fff;
+}
+
+.slide {
+    position: relative;
+    height: calc(100vh - 7.75rem); 
+}
+
+.slide__background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide__copy {
+    position: absolute;
+    top: 6.25rem;;
+    left: 50vw;
+}
+
+.slide__copy h6 {
+    font-size: .9375rem;
+    font-weight: 400;
     text-transform: uppercase;
-}   
-
-.navbar__links a{
-    font-weight:300;
-    color: #fff; /*Cor dos elementos da barra*/
-    text-decoration: none; /*Retira o efeito dos elementos da barra*/
+    letter-spacing: .1875rem;   
 }
 
-.navbar__links a:hover{
-    color: var(--color-primary); /*Utilizou da variável para aplicar a cor primária na navbar*/
+.slide__copy h2 {
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    line-height: 6.25rem;
 }
 
-.logo-studion{
-    font-size:2.375rem;
-    font-weight: 900; /*Deixa o texto STUDION mais pesado*/
-    line-height:1ch;
-    text-transform: uppercase; /*Texto em maiúscula*/
-    text-align:right;
+.slide__copy h2 span {
+    display: block;
 }
 
-.logo-studion_subtitle{
-    font-size: 0.875rem;
-    font-weight: 300;
+.btn {
+    cursor:pointer;
+    padding: 1rem 2.5rem;
+    border: .125rem solid #fff;
+    border-radius: 5rem;
+    color: var(--color-primary);
+    background: unset;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s all ease;
 }
 
-.copy-primary{
-    color:var(--color-primary)
+.btn:hover,
+.btn:active,
+.btn:focus{
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
 }
