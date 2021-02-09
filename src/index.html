@@ -8,82 +8,91 @@
     <title>Studion</title>
 </head>
 
-<body> <!-- corpo do site-->
-    <nav class="navbar"> <!--seção de uma página que aponta para outras páginas -->
-        <h1 class="logo-studion">
-            Studi<span class="copy--primary">on</span>
-            <span class="logo-studion_subtitle">Eventos</span>
-        </h1>
-        <ul class="navbar__links"> <!--lista de itens -->
-            <li> <!--representa um item da lista -->
-                <a href="#empresa">
-                    Empresa
-                </a>
-            </li>
-            <li>
-                <a href="#eventos">
-                    Eventos
-                </a>
-            </li>
-            <li>
-                <a href="#galeria">
-                    Galeria
-                </a>
-            </li>
-            <li>
-                <a href="#depoimentos">
-                    Depoimentos
-                </a>
-            </li>
-            <li>
-                <a href="#contato">
-                    Contato
-                </a>
-            </li>
-        </ul>
+<body>
+    <!-- corpo do site-->
+    <nav class="navbar"> 
+        <div class="container navbar__container">
+            <!--seção de uma página que aponta para outras páginas -->
+            <h1 class="logo-studion">
+                Studi<span class="copy--primary">on</span>
+                <span class="logo-studion__subtitle">Eventos</span>
+            </h1>
+            <ul class="navbar__links">
+                <!--lista de itens -->
+                <li>
+                    <!--representa um item da lista -->
+                    <a href="#empresa">
+                        Empresa
+                    </a>
+                </li>
+                <li>
+                    <a href="#eventos">
+                        Eventos
+                    </a>
+                </li>
+                <li>
+                    <a href="#galeria">
+                        Galeria
+                    </a>
+                </li>
+                <li>
+                    <a href="#depoimentos">
+                        Depoimentos
+                    </a>
+                </li>
+                <li>
+                    <a href="#contato">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <header> <!-- Agregador de conteúdo do cabeçalho de um documento ou de uma seção.-->
-        <div id="slider"> 
+    <header>
+        <!-- Agregador de conteúdo do cabeçalho de um documento ou de uma seção.-->
+        <div id="slider">
             <div class="slide">
-                <img 
-                class="slide__background-image" 
-                src="./images/banner.jpg" 
-                alt="Studion Banner"
-                />
+                <img class="slide__background-image" src="./images/banner.jpg" alt="Studion Banner" />
                 <div class="slide__copy">
-                    <h6 style="margin:0";><span class="copy--primary">Próximo Evento</span> - Dia 23 de maio às 23h</h6> <!-- span é um generico em linha para conteúdo fraseado; agrupa elementos p estilizar-->
+                    <h6 style="margin:0" ;><span class="copy--primary">Próximo Evento</span> - Dia 23 de maio às 23h
+                    </h6> <!-- span é um generico em linha para conteúdo fraseado; agrupa elementos p estilizar-->
                     <h2><span class="copy--primary">Creative</span> Minds</h2>
                     <button class="btn btn--slide">Saiba Mais</button>
                 </div>
-            <div>
-        </div>
+                <div>
+                </div>
     </header>
 
-    <main> <!--define o conteúdo principal dentro do <body>-->
-        <section> <!-- utilizada para marcar as seções de conteúdo de uma página-->
-            <ul>
+    <main>
+        <!--define o conteúdo principal dentro do <body>-->
+        <section id="counter">
+            <!-- utilizada para marcar as seções de conteúdo de uma página-->
+            <ul class="container counter__container">
                 <li>
-                    <h3>+ de 500 </h3>eventos realizados
+                    <h3>+ de 500<small>eventos realizados</small> </h3>
                 </li>
                 <li>
-                    <h3>+ de 1.000.000 </h3>de ingressos vendidos
+                    <h3>+ de 1.000.000<small>de ingressos vendidos</small> </h3>
                 </li>
                 <li>
-                    <h3>+ de 300 </h3>empresas atendidas
+                    <h3>+ de 300<small>empresas atendidas</small> </h3>
                 </li>
             </ul>
         </section>
 
-        <section>
-            <div> <!-- Usada p demarcar um bloco maior de código, tendo tags HTML ou mesmo uma única tag, mas de tamanho grande-->
-                <img src="./images/institutional.jpg">
+        <section class="container institutional">
+            <img class="institutional__image" src="./images/institutional.jpg" alt="Studion Institutional">
+            <div class="institutional__copy">
+                <!-- Usada p demarcar um bloco maior de código, tendo tags HTML ou mesmo uma única tag, mas de tamanho grande-->
                 <h6>FAZEMOS O SEU EVENTO ACONTECER</h6>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio veniam amet autem alias fugiat, labore laborum ex soluta dolores quidem vel dolorem facilis enim tempora doloremque exercitationem omnis reprehenderit velit.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio veniam amet autem alias fugiat,
+                    labore laborum ex soluta dolores quidem vel dolorem facilis enim tempora doloremque exercitationem
+                    omnis reprehenderit velit.
                 </p>
-                <button>Saiba Mais</button>
+                <button class="btn btn--institucional">Saiba Mais</button>
             </div>
         </section>
 
@@ -96,11 +105,14 @@
         </section>
     </main>
 
-    <footer> <!--representa um rodapé para o seu conteúdo de seção mais próximo-->
+    <footer>
+        <!--representa um rodapé para o seu conteúdo de seção mais próximo-->
         <h2>Studi<span>on</span><span>Eventos</span></h2>
-        <form> <!--usado p criar formulário-->
+        <form>
+            <!--usado p criar formulário-->
             <label>Receba news e promoções</label> <!-- legenda em uma interface de usuário-->
-            <input type="email" placeholder="email"> <!--cria controles interativos p form-->
+            <input type="email" placeholder="email">
+            <!--cria controles interativos p form-->
             <button type="submit">Enviar</button>
         </form>
         <ul>
@@ -114,4 +126,5 @@
         </p>
     </footer>
 </body>
+
 </html>
