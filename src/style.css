@@ -21,12 +21,12 @@ body {
 header,
 main,
 footer {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
   max-width: 1140px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 ul {
@@ -45,7 +45,7 @@ ul {
   color: #fff; /*Cor da letra*/
 }
 
-.navbar__container{
+.navbar__container {
   display: grid; /*grid layout enables an author to align elements into columns and rows*/
   grid-template-columns: 1fr 9fr;
   align-items: center;
@@ -186,7 +186,7 @@ ul {
   padding: 4.375rem;
 }
 
-.institutional__image{
+.institutional__image {
   max-width: 550px;
 }
 
@@ -218,4 +218,59 @@ ul {
 .btn--institucional:hover {
   color: var(--color-copy);
   background: unset;
+  box-shadow: 0 1rem 1rem #0006;
+}
+
+.quote {
+  background-image: url(./images/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 80vh;
+  
+}
+
+.quote__copy {
+  background-color: #fff;
+  padding: 5.625rem 4.375rem;
+}
+
+.quote__copy h6 {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  letter-spacing: 0.1875rem;
+  line-height: 1.4375rem;
+  max-width: 53ch;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.quote__copy h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: -0.1875rem;
+  line-height: 5rem;
+  margin: 1.875rem 0;
+}
+
+.quote__copy h2 span {
+  display: block;
+}
+
+.btn--quote {
+  color: var(--color-copy);
+  border-color: var(--color-copy);
+  background:unset;
+}
+
+.btn--quote:hover,
+.btn--quote:active {
+  box-shadow: 0 1rem 1rem #0006;
 }
