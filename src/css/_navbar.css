@@ -1,0 +1,44 @@
+.navbar {
+  position: absolute; /*Fixou a barra de navegação*/
+  z-index: 1;
+  top: 0; /*Retira a margem que ficou da barra de navegação*/
+  left: 0;
+  width: 100%;
+  color: #fff; /*Cor da letra*/
+}
+
+.navbar__container {
+  display: grid; /*grid layout enables an author to align elements into columns and rows*/
+  grid-template-columns: 1fr 9fr;
+  align-items: center;
+
+  width: 100vw; /*Faz a barra de navegação ficar inteira*/
+  height: 7.75rem;
+  padding: 0 1rem; /*Afasta os elementos da lista da barra de navegação*/
+}
+
+.navbar__links {
+  justify-self: end; /*Justifica os elementos da barra de navegação à direita*/
+}
+
+.navbar__links li {
+  font-size: 0.875rem;
+  margin-right: 3rem; /*Margem entre as palavras da barra*/
+  text-transform: uppercase;
+}
+
+.navbar__links a {
+  font-weight: 300;
+  color: #fff; /*Cor dos elementos da barra*/
+  text-decoration: none; /*Retira o efeito dos elementos da barra*/
+}
+
+.navbar__links a.active {
+  color: var(--color-primary);
+}
+
+.navbar__links a:hover {
+  color: var(
+    --color-primary
+  ); /*Utilizou da variável para aplicar a cor primária na navbar*/
+}
