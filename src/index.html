@@ -10,7 +10,7 @@
 
 <body>
 
-    <nav class="navbar"> 
+    <nav class="navbar">
         <div class="container navbar__container">
             <!--seção de uma página que aponta para outras páginas -->
             <h1 class="logo-studion">
@@ -66,7 +66,7 @@
 
     <main>
         <!--define o conteúdo principal dentro do <body>-->
-        <section id="counter">
+        <section id="counter" class="counter">
             <!-- utilizada para marcar as seções de conteúdo de uma página-->
             <ul class="container counter__container">
                 <li>
@@ -81,22 +81,27 @@
             </ul>
         </section>
 
-        <section class="container institutional">
-            <img class="institutional__image" src="./images/institutional.jpg" alt="Studion Institutional">
-            <div class="institutional__copy">
-                <!-- Usada p demarcar um bloco maior de código, tendo tags HTML ou mesmo uma única tag, mas de tamanho grande-->
-                <h6>FAZEMOS O SEU EVENTO ACONTECER</h6>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio veniam amet autem alias fugiat,
-                    labore laborum ex soluta dolores quidem vel dolorem facilis enim tempora doloremque exercitationem
-                    omnis reprehenderit velit.
-                </p>
-                <button class="btn btn--institucional">Saiba Mais</button>
+        <section class="institutional">
+            <div class="container institutional__container">
+
+                <img class="institutional__image" src="./images/institutional.jpg" alt="Studion Institutional">
+                <div class="institutional__copy">
+                    <!-- Usada p demarcar um bloco maior de código, tendo tags HTML ou mesmo uma única tag, mas de tamanho grande-->
+                    <h6>FAZEMOS O SEU EVENTO ACONTECER</h6>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio veniam amet autem alias fugiat,
+                        labore laborum ex soluta dolores quidem vel dolorem facilis enim tempora doloremque
+                        exercitationem
+                        omnis reprehenderit velit.
+                    </p>
+                    <button class="btn btn--institucional">Saiba Mais</button>
+                </div>
             </div>
         </section>
 
         <section class="quote">
+            <img class="quote__image" src="./images/parallax.jpg" alt="Parallax">
             <div class="container quote__container">
                 <div class="quote__copy">
                     <h6>VOCÊ INFORMA A TEMÁTICA E NÓS PLANEJAMOS UM EVENTO COM TECNOLOGIA E</h6>
@@ -107,24 +112,47 @@
         </section>
     </main>
 
-    <footer>
-        <!--representa um rodapé para o seu conteúdo de seção mais próximo-->
-        <h2>Studi<span>on</span><span>Eventos</span></h2>
-        <form>
-            <!--usado p criar formulário-->
-            <label>Receba news e promoções</label> <!-- legenda em uma interface de usuário-->
-            <input type="email" placeholder="email">
-            <!--cria controles interativos p form-->
-            <button type="submit">Enviar</button>
-        </form>
-        <ul>
-            <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-            <li><a href="https://youtube.com/" target="_blank">Youtube</a></li>
-        </ul>
+    <footer class="footer">
+        <div class="container footer__container">
+            <!--representa um rodapé para o seu conteúdo de seção mais próximo-->
+            <h2 class="logo-studion">Studi<span class="copy--primary">on</span>
+                <span class="logo-studion__subtitle">Eventos</span></h2>
+            <form class="footer__form">
+                <!--usado p criar formulário-->
+                <label for="email">Receba news e promoções</label> <!-- legenda em uma interface de usuário-->
+                <div class="footer__email">
+                    <input id="email" type="email" placeholder="email">
+                    <!--cria controles interativos p form-->
+                    <button type="submit">
+                        <i class="fas fa-paper-plane fa-2x"></i>
+                    </button>
+                </div>
+            </form>
+            <ul class="footer__social">
+                <li>
+                    <a href="https://facebook.com/" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" target="_blank">
+                        <span class="fa-stack">
+                            <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/" target="_blank">
+                        <i class="far fa-play-circle fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
         <hr>
         <p>
-            <small>Studi<span>ON</span> - Todos os direitos reservados.</small>
+            <small>Studi<span class="copy--primary">ON</span> - Todos os direitos reservados.</small>
         </p>
     </footer>
 </body>
