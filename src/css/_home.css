@@ -13,12 +13,21 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
 
 .slide__copy {
   position: absolute;
-  top: 6.25rem;
-  left: 50vw;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  padding-left: 50vw;
+  align-items: center;
 }
 
 .slide__copy h6 {
@@ -26,6 +35,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
+  margin: 0;
 }
 
 .slide__copy h2 {
@@ -48,7 +58,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   place-items: center;
-  padding: 4.375rem 1rem;
+  padding: 4.375rem 0;
 }
 
 .counter__container h3 {
@@ -61,10 +71,6 @@
 }
 
 .institutional {
-  background-color: #fff;
-}
-
-.institutional__container {
   display: grid;
   grid-template-columns: auto auto;
   gap: 3.125rem;
@@ -77,7 +83,7 @@
 }
 
 .institutional__copy {
-  padding: 0 1.875rem 0 0;
+  padding: 0 1.875rem ;
 }
 
 .institutional__copy h6 {
@@ -89,7 +95,7 @@
 }
 
 .institutional__copy h4 {
-  font-size: 1, 5625rem;
+  font-size: 1.5625rem;
   margin-top: 1rem;
 }
 
@@ -109,17 +115,6 @@
   background-position: center;
 }
 
-.quote__image {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  z-index: -1;
-
-  transform: translateX(-50%);
-
-  height: 100vh;
-  width: auto;
-}
 
 .quote__container {
   display: grid;
@@ -154,3 +149,4 @@
 .quote__copy h2 span {
   display: block;
 }
+
