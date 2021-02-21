@@ -3,9 +3,10 @@
 <hr>
 
 <h2>Getting Started</h2>
-<p>-git clone https://github.com/SetropLeo/StudionEvent<br>
--run index.html
-</p>
+<pre>
+<code>-git clone https://github.com/SetropLeo/StudionEvent
+</code>
+</pre>
 
 <h2>Built With</h2>
 <ul>
