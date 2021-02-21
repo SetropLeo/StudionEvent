@@ -1,5 +1,5 @@
 .navbar {
-  position: absolute; /*Fixou a barra de navegação*/
+  position: absolute; /*Fixa a barra de navegação acima*/
   z-index: 1;
   top: 0; /*Retira a margem que ficou da barra de navegação*/
   left: 0;
@@ -11,7 +11,7 @@
   display: grid; /*grid layout enables an author to align elements into columns and rows*/
   grid-template-columns: 1fr 9fr;
   align-items: center;
-
+  
   width: 100vw; /*Faz a barra de navegação ficar inteira*/
   height: 7.75rem;
   padding: 0 1rem; /*Afasta os elementos da lista da barra de navegação*/
@@ -38,7 +38,5 @@
 }
 
 .navbar__links a:hover {
-  color: var(
-    --color-primary
-  ); /*Utilizou da variável para aplicar a cor primária na navbar*/
+  color: var(--color-primary); /*Utilizou da variável para aplicar a cor primária na navbar*/
 }
