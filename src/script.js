@@ -36,3 +36,4 @@ $(document).ready(() => {
     }).then((message) => alert(message));
   });
 });
+
