@@ -8,6 +8,18 @@ $(document).ready(() => {
     nextArrow:
       '<button type="button" class="slick-next slider__next-arrow">Next</button>;',
   };
+
+  setInterval(() => {
+    const numbersCollection = document.querySelectorAll(".counter__number");
+
+    numbersCollection.forEach((number) => {
+      const currentNumber = parseInt(number.innerHTML);
+      number.innerHTML = currentNumber + 1;
+    });
+  }, 1000);
+
+  
+
   $(".slider").slick(slickOptions);
 
   $(".footer__form-button").on("click", () => {

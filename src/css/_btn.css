@@ -14,14 +14,28 @@
 .btn:hover,
 .btn:active,
 .btn:focus,
-.btn--institucional,
+.btn--institutional,
 .btn--contact {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #fff;
 }
 
-.btn--institucional:hover,
+.btn--institutional,
+.btn--quote {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn--institutional,
+  .btn--quote {
+    display: inline;
+    margin: unset;
+  }
+}
+
+.btn--institutional:hover,
 .btn--contact:hover {
   color: var(--color-copy);
   background: unset;
