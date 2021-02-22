@@ -1,6 +1,7 @@
 .hero {
   position: relative;
   height: 34.625rem;
+  background-color: #000;
 }
 
 .hero__background {
@@ -10,11 +11,16 @@
   object-position: center;
 }
 
+.hero__container {
+  position: relative;
+  height: 100%;
+}
+
 .hero__copy {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 50vw;
+  width: 50%;
   padding: 7rem 1.875rem;
 }
 
