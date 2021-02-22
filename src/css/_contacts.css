@@ -13,8 +13,8 @@
   margin-top: 3.75rem;
 }
 
-.contact__info__container,
-.contact__form__container {
+.contact__info,
+.contact__form {
   padding: 4rem 0;
 }
 
@@ -63,12 +63,12 @@
 
 .contact__form input {
   width: 100%;
-  color: #fff;
-  background: unset;
-  border: unset;
-  border-bottom: 0.1rem solid #fff;
   margin-bottom: 1.875rem;
   padding: 1rem 0;
+  background: unset;
+  border: unset;
+  border-bottom: 0.06rem solid #fff;
+  color: #fff;  
   font-size: 1.5rem;
 }
 
