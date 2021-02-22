@@ -1,7 +1,7 @@
 .footer {
   background-color: #000;
   color: #fff;
-  padding: 0 1rem;
+  text-align: center;
 }
 
 .footer__container {
@@ -9,7 +9,7 @@
   grid-template-columns: repeat(3, auto);
   align-items: center;
   border-bottom: 0.1rem solid #fff3;
-  padding: 5.25rem 0 3.75rem 0;
+  padding: 5rem 0;
 }
 
 .footer .logo-studion {
@@ -30,6 +30,7 @@
   line-height: 1.0625rem;
   text-align: center;
 }
+
 
 .footer__form__email {
   display: grid;
