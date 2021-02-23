@@ -30,11 +30,12 @@
 }
 
 .slick-arrow {
-  display: none;
+  visibility: hidden;
 }
 
 @media screen and (min-width: 1280px) {
   .slick-arrow {
+    visibility: visible;
     display: block;
   }
 }
@@ -197,7 +198,7 @@
   background-position: 40% top;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:720px) {
   .quote {
     background-attachment: fixed;
     background-size: cover;
@@ -213,7 +214,7 @@
 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 720px) {
   .quote__container {
     align-items: center;
 
@@ -226,7 +227,7 @@
   padding-bottom:4rem;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 720px) {
   .quote__copy {
     padding: 5.625rem 4.375rem;
 
@@ -255,7 +256,7 @@
   display: block;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 720px) {
   .quote__copy h6 {
   font-size: 0.9375rem;
   }
