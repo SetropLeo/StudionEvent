@@ -1,5 +1,5 @@
-<h1>Studies</h1>
-<p>This project was developed with the aim of training Html, Css, Js and learning how to use Bash and GitHub, in addition to other technologies.</p>
+<h1>Studion Event</h1>
+<p>The project was developed to study HTML, CSS, JS and learn to use Bash and GitHub, among other technologies.</p>
 <hr>
 
 <h2>Getting Started</h2>
