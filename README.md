@@ -1,6 +1,78 @@
 <h1>Studion Event</h1>
-<p>The project was developed to study HTML, CSS, JS and learn to use Bash and GitHub, among other technologies.</p>
-<hr>
+<p style="font-size:15px;">The project was developed to study HTML, CSS, JS and learn to use Bash and GitHub, among other technologies.</p>
+<br>
+
+**Initial - Desktop**
+
+<table>
+  <th>Carousel</th>
+  <th>Carousel</th>
+  <th>Carousel</th>
+  
+<tr>
+<td>
+  <img src="./src/images-2/screen-1.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/screen-2.jpg"/>
+</td>
+<td>
+   <img src="./src/images-2/screen-3.jpg"/>
+</td>
+</tr>
+</table>
+
+**Continuation**
+
+<table>
+  <th>Middle</th>
+  <th>End</th>
+  
+<tr>
+<td>
+  <img src="./src/images-2/screen-4.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/screen-5.jpg"/>
+</td>
+</tr>
+</table>
+
+**Initial - Mobile**
+
+<table>
+  <th>Carousel Responsive</th>
+  <th>Carousel Responsive</th>
+  <th>Carousel Responsive</th>
+  
+<tr>
+<td>
+  <img src="./src/images-2/resp-1.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/resp-2.jpg"/>
+</td>
+<td>
+   <img src="./src/images-2/resp-3.jpg"/>
+</td>
+</tr>
+</table>
+
+**Continuation**
+
+<table>
+  <th>Middle</th>
+  <th>End</th>
+  
+<tr>
+<td>
+  <img src="./src/images-2/screen-4.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/screen-5.jpg"/>
+</td>
+</tr>
+</table>
 
 <h2>Getting Started</h2>
 <pre>
@@ -20,69 +92,3 @@
 <br>
 <a href="Imagine School">https://imagineschool.com.br/</a>
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-     <tr>
-      <td></td>
-      <td></td>
-    </tr>
-     <tr>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-
-****
-<table>  
-  <th></th>
-  <th></th>
-  <th></th>
-<tr>
-
-<td>
-   <img src=""/>
-  </td>
-<td>
-   <img src=""/>
-  </td>
-   <td>
-    <img src=""/>
-  </td>
-</tr>
-</table>
-
-<table>
-  <th></th>
-  <th></th>
-  <th></th>
-<tr>
-  <td>
-    <img src=""/>
-  </td>
-<td>
-   <img src=""/>
-  </td>
-<td>
-   <img src=""/>
-  </td>
-</tr>
-</table>
