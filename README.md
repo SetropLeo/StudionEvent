@@ -37,6 +37,25 @@
 </td>
 </tr>
 </table>
+
+**Contact Page**
+<table>
+<th>Initial</th>
+<th>Middle</th>
+<th>End</th>
+<tr>
+<td>
+  <img src="./src/images-2/screen_2.1.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/screen_2.2.jpg"/>
+</td>
+  <td>
+  <img src="./src/images-2/screen_2.3.jpg"/>
+</td>
+</tr>
+</table>
+
 <br>
 <br>
 
