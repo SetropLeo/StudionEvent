@@ -6,10 +6,7 @@
 **Initial - Desktop**
 
 <table>
-  <th>Carousel</th>
-  <th>Carousel</th>
-  <th>Carousel</th>
-  
+  <th colspan="3">Carousel</th>
 <tr>
 <td>
   <img src="./src/images-2/screen-1.jpg"/>
@@ -63,10 +60,7 @@
 **Initial - Mobile**
 
 <table>
-  <th>Carousel</th>
-  <th>Carousel</th>
-  <th>Carousel</th>
-  
+  <th colspan="3">Carousel</th>
 <tr>
 <td>
   <img src="./src/images-2/resp-1.jpg"/>
@@ -83,11 +77,8 @@
 **Continuation**
 
 <table>
-  <th>Middle</th>
-  <th>Middle</th>
-  <th>End</th>
-  <th>End</th>
-  
+  <th colspan="2">Middle</th>
+  <th colspan="2">End</th>
 <tr>
 <td>
   <img src="./src/images-2/resp-4.jpg"/>
