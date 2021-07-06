@@ -31,6 +31,7 @@
   .footer .logo-studion {
     justify-self: start;
   }
+}
 
 .footer__form {
   display: grid;
@@ -49,22 +50,18 @@
 .footer__form label {
   font-size: 0.875rem;
   font-weight: 300;
-  line-height: 1.0625rem;
+  line-height: 1rem;
 }
-
 
 .footer__form__email {
   display: grid;
   grid-template-columns: auto 3.375rem;
-  padding-top: 12px;
-  background:var(--color-primary);
-
+  padding: 0 1rem;
 }
 
 @media screen and (min-width: 1280px) {
   .footer__form__email {
     padding: 0;
-
   }
 }
 
@@ -76,8 +73,6 @@
   text-transform: uppercase;
   padding: 1rem;
   color: #000;
-  background:var(--color-primary);
-
 }
 
 
@@ -87,19 +82,15 @@
 
 .footer__form button {
   cursor: pointer;
-  border: unset;
-  width: 100%;
-  background-color: white;
-}
-
-.footer__form input:focus {
-  outline-color: #fff;
+  transition: .3s all ease;
+  background: white;
+  border: 1px solid white;
+  border-left: 1.5px solid black;
 }
 
 .footer__form button:hover {
+  background-color: #000;
   color: #fff;
-  background-color: var(--color-copy);
-  transition: 0.3s all ease;
 }
 
 .footer__social {
@@ -113,7 +104,7 @@
   .footer__social {
     justify-self: end;
   }
-
+}
 
 .footer__social a,
 .footer__social a:hover,
@@ -131,8 +122,6 @@
   color: #000;
 }
 
-
 .footer p {
   margin: 2.5rem 0;
-  
 }

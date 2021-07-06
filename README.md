@@ -19,3 +19,70 @@
 <a href="W3Schools">https://w3schools.com/</a> 
 <br>
 <a href="Imagine School">https://imagineschool.com.br/</a>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+****
+<table>  
+  <th></th>
+  <th></th>
+  <th></th>
+<tr>
+
+<td>
+   <img src=""/>
+  </td>
+<td>
+   <img src=""/>
+  </td>
+   <td>
+    <img src=""/>
+  </td>
+</tr>
+</table>
+
+<table>
+  <th></th>
+  <th></th>
+  <th></th>
+<tr>
+  <td>
+    <img src=""/>
+  </td>
+<td>
+   <img src=""/>
+  </td>
+<td>
+   <img src=""/>
+  </td>
+</tr>
+</table>
