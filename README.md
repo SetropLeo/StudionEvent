@@ -1,6 +1,7 @@
 <h1>Studion Event</h1>
 <p style="font-size:15px;">The project was developed to study HTML, CSS, JS and learn to use Bash and GitHub, among other technologies.</p>
 <br>
+<br>
 
 **Initial - Desktop**
 
@@ -25,9 +26,8 @@
 **Continuation**
 
 <table>
-  <th>Middle</th>
-  <th>End</th>
-  
+<th>Middle</th>
+<th>End</th>
 <tr>
 <td>
   <img src="./src/images-2/screen-4.jpg"/>
@@ -37,13 +37,16 @@
 </td>
 </tr>
 </table>
+<br>
+<br>
+
 
 **Initial - Mobile**
 
 <table>
-  <th>Carousel Responsive</th>
-  <th>Carousel Responsive</th>
-  <th>Carousel Responsive</th>
+  <th>Carousel</th>
+  <th>Carousel</th>
+  <th>Carousel</th>
   
 <tr>
 <td>
@@ -62,14 +65,22 @@
 
 <table>
   <th>Middle</th>
+  <th>Middle</th>
+  <th>End</th>
   <th>End</th>
   
 <tr>
 <td>
-  <img src="./src/images-2/screen-4.jpg"/>
+  <img src="./src/images-2/resp-4.jpg"/>
 </td>
 <td>
-  <img src="./src/images-2/screen-5.jpg"/>
+  <img src="./src/images-2/resp-5.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/resp-6.jpg"/>
+</td>
+<td>
+  <img src="./src/images-2/resp-7.jpg"/>
 </td>
 </tr>
 </table>
@@ -85,6 +96,7 @@
 <li>HTML5</li>
 <li>CSS3</li>
 <li>JavaScript</li>
+<li>JQuery</li>
 </ul>
 
 <h2>Contributions</h2>
