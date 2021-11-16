@@ -97,7 +97,8 @@
 
 <h2>Getting Started</h2>
 <pre>
-<code>-git clone https://github.com/SetropLeo/StudionEvent
+<code>
+-git clone https://github.com/SetropLeo/StudionEvent
 </code>
 </pre>
 
